@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * 9.回文数
  */
-class Solution {
+class Solution9 {
     public boolean isPalindrome(int x) {
         /**
          * 反转一半数字比较
@@ -47,7 +47,7 @@ public class Ex9 {
         while ((line = in.readLine()) != null) {
             int x = Integer.parseInt(line);
 
-            boolean ret = new Solution().isPalindrome(x);
+            boolean ret = new Solution9().isPalindrome(x);
 
             String out = booleanToString(ret);
 
